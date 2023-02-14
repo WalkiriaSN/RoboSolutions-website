@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RoboSolutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <nav class="nav">
+            <a class="nav-link" href="Homepage.html">Home</a>
+            <a class="nav-link" href="customers.html">Our Customers</a>
+            <a class="nav-link" href="fields.html">Our Fields</a>
+            <a class="nav-link" href="careers.html">Careers</a>
+          </nav>
+        <h1>Register</h1>
+        <p><i>Fill the form below to register</p></i></p><br>
+    
+        <form id="form">
+            <p>
+                <label><b>Full Name</b></label>
+                <input type="text" placeholder="Full name" pattern=".{8,}" required>
+            </p>
+
+            <p>
+                <label><b>Experience</b></label>
+                <input type="number" placeholder="Experience" required>
+            </p></form>
+            <!--  Drop-Down lists -->
+            <form action="/action_page.php">
+                <b>Vacancies</b><br>
+                <select name="vacancies">
+                    <option value="1">Android Developer</option>
+                    <option value="2">Full Stack Developer</option>
+                    <option value="3">Consultant</option>
+                    <option value="4">Research and Development</option>
+                </select>
+                <br><br>
+            </form>
+            <form action="/action_page.php"></form>
+            <b>Job type</b><br>
+            <select name="job type">
+                <option value="1">Full-time</option>
+                <option value="2">Part-time</option>
+                <option value="3">Freelancer</option>
+                <option value="4">Internship</option>
+            </select>
+            <br><br><br>
+            <input type="submit" value="Apply">
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    </center>
+</body>
+
+</html>
